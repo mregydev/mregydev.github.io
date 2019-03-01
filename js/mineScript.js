@@ -106,7 +106,7 @@
                 WebLink: "http://gmraexplorer.alriyadh.gov.sa/gasstations/",
                 Src: "img/portfolio/gasstation/main.png",
                 Technologies: "Technologies used are Nodejs,Mongodb HTML5 , CSS3 , React,Bootstrap",
-                MainImage: "img/logo.jpg"
+                MainImage: "img/portfolio/gasstation/main.png"
             },
             
             {
@@ -117,7 +117,7 @@
                 WebLink: "http://gmraexplorer.alriyadh.gov.sa/printapp/",
                 Src: "img/portfolio/printapp/main.png",
                 Technologies: "Technologies used are Nodejs,Mongodb HTML5 , CSS3 , React,Bootstrap",
-                MainImage: "img/logo.jpg"
+                MainImage: "img/portfolio/printapp/main.png"
             },
 
             {
