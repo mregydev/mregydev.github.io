@@ -1,0 +1,359 @@
+﻿body {
+  font-family: FontAwesome !important;
+}
+  
+.logoSection{
+    text-align: center;
+    font-weight: bold;
+  display:block;
+}
+
+
+  @media (max-width:1205px) {
+    .logoSection
+    {
+      display:none;
+    }
+}
+
+.mregydevlogo {
+    background: #DD2C00;
+    color: white;
+    padding: 10px;
+    border-radius: 50%;
+    margin-right: 2px;
+}
+.github a{
+  color:white !important;
+  text-decoration: underline
+}
+
+.well a{
+  color:#2C3E50 !important;
+  text-decoration: underline
+}
+
+.notification a
+{
+color: #2C3E50 !important;
+text-decoration: underline
+}
+.note
+{
+  color:#18BC9C;
+}
+
+.portfolioFooter {
+    background-color: #18BC9C !important;
+    color: white !important;
+    font-weight: bold;
+    text-align: center;
+    font-weight: bold;
+    font-size: larger;
+    padding: 10px;
+    font-family: georgia;
+    z-index:1000;
+    height:40px;
+    overflow: hidden;
+
+}
+
+
+.projectContent
+{
+  margin-bottom:0px;
+}
+
+
+.experience {
+    background-color: #2C3E50;
+    padding: 10px;
+    color: white;
+    font-family: Georgia;
+    margin-bottom: 30px;
+    height:220px;
+
+
+}
+
+#portfolio .portfolio-item .portfolio-link
+{
+  text-align:center;
+  font-size:120px;
+}
+
+#portfolio .portfolio-item .portfolio-link .caption {
+  position: absolute;
+top: 0px;
+left: 0px;
+height: 100%;
+
+}
+
+    .experience :hover {
+        -webkit-animation-name: spaceboots;
+        -webkit-animation-duration: 0.8s;
+        -webkit-transform-origin: 50% 50%;
+        -webkit-animation-iteration-count: infinite;
+        -webkit-animation-timing-function: linear;
+    }
+
+.header {
+    font-weight: bold;
+    margin-top:20px;
+    font-family: FontAwesome;
+    line-height: 1.5;
+}
+
+
+
+.offer-img img{
+    max-width: 100%;
+    height: 300px;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    width: 100%;
+    transform-style: preserve-3d;
+}
+.offer-img:hover img{
+    -webkit-transform: scale(1.5) rotate(0deg);
+    -ms-transform: scale(1.5) rotate(0deg);
+    transform: scale(1.5) rotate(0deg);
+}
+
+
+@-webkit-keyframes spaceboots {
+    0% {
+        -webkit-transform: translate(2px, 1px) rotate(0deg);
+    }
+
+    10% {
+        -webkit-transform: translate(-1px, -2px) rotate(-1deg);
+    }
+
+    20% {
+        -webkit-transform: translate(-3px, 0px) rotate(1deg);
+    }
+
+    30% {
+        -webkit-transform: translate(0px, 2px) rotate(0deg);
+    }
+
+    40% {
+        -webkit-transform: translate(1px, -1px) rotate(1deg);
+    }
+
+    50% {
+        -webkit-transform: translate(-1px, 2px) rotate(-1deg);
+    }
+
+    60% {
+        -webkit-transform: translate(-3px, 1px) rotate(0deg);
+    }
+
+    70% {
+        -webkit-transform: translate(2px, 1px) rotate(-1deg);
+    }
+
+    80% {
+        -webkit-transform: translate(-1px, -1px) rotate(1deg);
+    }
+
+    90% {
+        -webkit-transform: translate(2px, 2px) rotate(0deg);
+    }
+
+    100% {
+        -webkit-transform: translate(1px, -2px) rotate(-1deg);
+    }
+}
+
+.carousel-control.right, .carousel-control.left {
+    background-image: none !important;
+}
+
+.experienceSection {
+    background-color: #f1f1f1;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12) !important;
+}
+
+
+
+.experienceArrow:after {
+    background-color: #f1f1f1 !important;
+}
+
+
+
+
+.nickname {
+    font-family: georgia;
+    text-transform: none;
+}
+
+.technology {
+    font-weight: bold;
+    font-family: FontAwesome;
+    color: #2C3E50 !important;
+    font-size:medium;
+}
+
+    .technology:after {
+        content: " - ";
+        font-family: Georgia;
+    }
+
+    .technology:last-child:after {
+        content: "";
+    }
+
+.contactIcon {
+    background-color: #2C3E50 !important;
+    color: white;
+    border-radius: 50%;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.contactSection
+{
+  margin-top:10px;
+}
+.contactDetail {
+    color: #2C3E50;
+    font-weight: bold;
+    font-size: x-large;
+    font-family: FontAwesome;
+    margin-left: 5px;
+}
+
+.experience img {
+    height: 100px;
+    width:100%;
+    background-color: white;
+    padding:5px;
+}
+
+@media only screen and (min-width: 770px) {
+    .experience {
+    }
+}
+
+
+.portfolioImg
+{
+  border-radius:50% !important;
+  width:120px;
+}
+
+
+.portfolioHeader
+{
+
+  color: #2C3E50;
+  font-weight: bold;
+  font-size: x-large;
+}
+
+
+.zoomin img { width: 700px; height:400px;-webkit-transition: all 2s ease; -moz-transition: all 2s ease; -ms-transition: all 2s ease; transition: all 2s ease; } .zoomin img:hover { width: 1000px; }
+
+
+.selectedImg
+{
+  position: fixed;
+top: 0px;
+left: 0px;
+width: 100%;
+height: 100%;
+}
+
+
+.selectedImgDiv
+{
+  z-index: 1000;
+}
+
+.hideBtn
+{
+  position: absolute;
+top: 20px;
+right: 20px;
+background-color: #18BC9C !important;
+color: white;
+font-weight: bold;
+font-size: xx-large;
+color: white;
+border-radius: 10px;
+padding: 13px;
+cursor: pointer;
+}
+
+.zoomCursor
+{
+  cursor:zoom-in;
+  height: 400px !important;
+
+}
+
+
+.portfolioProject
+{
+}
+
+
+.appImg
+{
+
+  height:171px;
+
+  margin-right: auto;
+margin-left: auto;
+}
+
+
+#portfolio .portfolio-item
+{
+  height:250px !important;
+}
+
+
+.sectionHeader
+{
+  color:#2C3E50;
+  text-align: center !important ;
+  text-decoration: underline;
+  font-weight: bold;
+}
+.portfolioSection
+{
+  font-family: FontAwesome !important;
+  margin-bottom: 20px;
+text-align: left;
+line-height: 30px;
+}
+
+.certSection
+{
+  height:260px;padding:10px;
+}
+.showBtn
+{
+  background-color: #18BC9C;
+color: white;
+padding: 10px;
+border-radius: 10px;
+}
+
+.certificateBoby
+{
+    background-color: #f1f1f1;
+    color: #2C3E50;
+    font-family: FontAwesome;
+    line-height: 2;
+    padding: 10px;
+    border-radius: 10px;
+}

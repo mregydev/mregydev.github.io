@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+<body>
+
+<div ng-app="myApp" ng-controller="myCtrl">
+
+<p>Today's welcome message is:</p>
+
+<h1>{{myWelcome}}</h1>
+
+</div>
+
+<p>The $http service requests a page on the server, and the response is set as the value of the "myWelcome" variable.</p>
+
+<script>
+var app = angular.module('myApp', []);
+app.controller('myCtrl', function($scope, $http) {
+
+  
+  var xsrf = {test: "this is a test"};
+$http({
+    method: 'POST',
+    url: 'http://localhost:5000/api/users',
+    data: xsrf,
+    headers: {'Content-Type': 'application/x-www-form-urlencoded'}
+}).then(function(response) {
+      $scope.myWelcome = response.data;
+  });
+});
+  
+  
+  
+ /* $http.post('http://localhost:5000/api/users',  { 'test' : 'this is a test' }).then(function(response) {
+      $scope.myWelcome = response.data;
+  });
+  var req = {
+    method: 'POST',
+    url: 'http://localhost:5000/api/users',
+    headers: {'Content-Type': 'application/x-www-form-urlencoded'},  
+    data:{test:"this is a simple test"}
+}
+  
+  $http.post(req)
+  .then(function(response) {
+      $scope.myWelcome = response.data;
+  });
+});*/
+</script>
+
+</body>
+</html>

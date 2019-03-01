@@ -1,0 +1,432 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>ALaaELden Hamed AbdElhamed</title>
+    <!-- Bootstrap Core CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  
+    <!-- Theme CSS -->
+    <link href="css/freelancer.min.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+  <!--  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">-->
+
+    <link href="css/newCss.css" rel="stylesheet" />
+    <script src="js/angular.js"></script>
+
+    <script src="js/mineScript.js"></script>
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body id="page-top" class="index" ng-app="app" ng-controller="Controller" ng-init="Init()">
+    <!-- Navigation -->
+    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-custom">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand nickname" href="#page-top"><h3 class="logoSection"><span class="mregydevlogo">MR</span>egydev</h3></a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#technologies">Technologies</a>
+                    </li>
+                    
+                    <li class="page-scroll">
+                        <a href="#github">Github Projects</a>
+                    </li>
+                    
+                    <li class="page-scroll">
+                      <a href="#certificates">Certificates</a>
+                    </li>
+
+                    <li class="page-scroll">
+                        <a href="#experience">Experience</a>
+                    </li>
+                       <li class="page-scroll">
+                        <a href="#portfolio">Portfolio</a>
+                    </li>
+                  
+                    
+                    <li class="page-scroll">
+                        <a href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <img class="img-responsive portfolioImg" src="{{PersonalImage}}" alt="">
+                    <div class="intro-text">
+                        <span class="name">{{FullName}}</span>
+                        <hr class="star-light">
+                        <span class="skills">{{Education}}</span>
+                        <br>
+                        <span class="skills">{{JobTitle}}</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+<section class="success" id="technologies">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h3>Technologies</h3>
+                    <hr class="star-light">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12 text-center">
+                    <h4>Client Side Technologies</h4>
+                    <p class="well"><span class="technology" ng-repeat="clientSideTech in ClientSideTechnologies">{{clientSideTech}}</span></p>
+                </div>
+                <div class="col-sm-12 text-center">
+                    <h4>Server Side Technologies</h4>
+                    <p class="well"><span class="technology" ng-repeat="serverSideTech in ServerSideTechnologies">{{serverSideTech}}</span></p>
+                </div>
+
+            </div>
+
+            <div class="text-center">
+            <a href="https://drive.google.com/open?id=0B4GoJ_pvHHPEWTNRX1JmRlpyMUU" class="btn btn-lg btn-outline">
+                        <i class="fa fa-download"></i> Resume
+                    </a>
+                              <a href="https://www.dropbox.com/s/buvnqlr1pz1cq3r/4434028399971171_alaahamed%20-%20csharpassignment.zip?dl=0" class="btn btn-lg btn-outline">
+                                          <i class="fa fa-download"></i> Work Sample
+                                      </a>
+
+                                    </div>
+
+
+        </div>
+    </section>
+    
+    
+<section class="success" id="cont">
+        <div class="container">
+              <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h3>Continous Integration </h3>
+                    <hr class="star-light">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12 text-center">
+          
+            <p class="well"><span class="technology" ng-repeat="cont in ContinousIntegration">{{cont}}</span></p>
+                </div>
+    </div>
+    </section>
+    <section class="success" id="github">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h3>Github Projects <i class="fa fa-fw fa-github fa-2x"></i></h3>
+                    <hr class="star-light">
+                </div>
+            </div>
+            <div class="row">
+            <div class="col-sm-12 github">
+                    <h4><a href='https://github.com/mregydev/jerusalem'>Jerusalem </a></h4>
+                    <p class="well"><span class="technology">Express.js middleware for uploading files either to AWS or google cloud or local file system.
+                        File either can be sent as base64 encoded string or in multi part form data
+                        
+                        (It is also published on npm on the <a href='https://www.npmjs.com/package/jerusalem'>link</a>)
+                        </span></p>
+                </div>
+                <div class="col-sm-12 github">
+                    <h4><a href='https://github.com/mregydev/dbyaml'>Dbyaml </a></h4>
+                    <p class="well"><span class="technology">Simple node.js command line application for generating data access entities based on config written in yaml file 
+       
+                        (It is also published on npm on the <a href='https://www.npmjs.com/package/dbyaml'>link</a>)
+                        </span></p>
+                </div>
+                <div class="col-sm-12 github">
+                    <h4><a href='https://github.com/mregydev/redux-json-middleware'>Redux Json Middleware </a></h4>
+                    <p class="well"><span class="technology"> Middleware for filtering json object before passing them to reducer 
+       
+                        (It is also published on npm on the <a href='https://www.npmjs.com/package/redux-json-middleware'>link</a>)
+                        </span></p>
+                </div>
+
+              
+            </div>
+            <div class='text-center notification'><span class='technology'>For other project please visit github <a href="https://github.com/mregydev">page</a></span></div>
+        </div>
+    </section>
+    
+    <section id="certificates" class="experienceSection">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Certificates</h2>
+                    <hr class="star-primary experienceArrow">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4" ng-repeat="certificate in Certificates" >
+                    <div class="portfolio-item experience center-block certSection">
+                        <img src="{{certificate.Logo}}"  class="img-responsive center-block" />
+                        <h5 class="text-center header">{{certificate.Title}}</h4>
+                        <h4 class="text-center header "><a class="showBtn" href="{{certificate.Url}}">Show</a></h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Grid Section -->
+
+    <section id="experience" class="experienceSection">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Experience</h2>
+                    <hr class="star-primary experienceArrow">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4" ng-repeat="company in Companies">
+                    <div class="portfolio-item experience center-block">
+                        <a href="{{company.Link}}">
+                            <img src="{{company.Src}}"  class="img-responsive center-block" />
+                        </a>
+                        <h4 class="text-center header">{{company.Position}}</h4>
+                        <h5 class="text-center">{{company.Interval}}</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Portfolio</h2>
+                    <hr class="star-primary">
+                </div>
+            </div>
+            <div class="row">
+
+                <div class="col-xs-12 col-sm-4" ng-repeat="project in Projects">
+                    <div class="portfolio-item portfolioProject center-block">
+
+                        <a href="#portfolioModal2" ng-click="ProjectClicked(project)" class="container-fluid well  portfolio-link" data-toggle="modal">
+                            <div class="caption">
+                                <div class="caption-content">
+                                    <i class="fa fa-search-plus fa-3x"></i>
+                                </div>
+                            </div>
+
+                            <img ng-if="project.Src && !project.IsSrcText" src="{{project.Src}}" class="img-responsive appImg" alt="{{project.Src}}" >
+                            <span ng-if="project.IsSrcText">{{project.Src}}</span>
+                            <i ng-if="project.AwesomeIcon" class="fa fa-fw fa-{{project.AwesomeIcon}}"></i>
+
+                        </a>
+                        <div class="container-fluid portfolioFooter">{{project.Title}}</div>
+                    </div>
+                </div>
+            </div>
+              <h4 class="text-center note"> More Projects can be found in <a href="https://drive.google.com/open?id=0B4GoJ_pvHHPEWTNRX1JmRlpyMUU" style="text-decoration:underline;;" >resume</a> </h3>
+        </div>
+    </section>
+    <!-- About Section -->
+    
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Contact Me</h2>
+                    <hr class="star-primary">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12 text-center contactSection">
+                    <i class="fa fa-fw fa-mobile contactIcon"></i> <span class="contactDetail">00966546175309</span>
+                </div>
+                <div class="col-lg-12 text-center contactSection">
+                    <i class="fa fa-fw fa-mail-forward contactIcon"></i> <span class="contactDetail">mregydev@gmail.com</span>
+                </div>
+                <div class="col-lg-12 text-center contactSection">
+                    <i class="fa fa-fw fa-skype contactIcon"></i> <span class="contactDetail">egydev1</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer class="text-center">
+        <div class="footer-above">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col col-md-12">
+                        <h3>Around the Web</h3>
+                        <ul class="list-inline">
+                            <li>
+                                <a href="https://eg.linkedin.com/in/alaa-hamed-6605a7a2" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/mregydev" class="btn-social btn-outline"><i class="fa fa-fw fa-github"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://www.freecodecamp.com/egydev1990" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="footer-below">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+    <div class="scroll-top page-scroll hidden-sm hidden-xs hidden-lg hidden-md">
+        <a class="btn btn-primary" href="#page-top">
+            <i class="fa fa-chevron-up"></i>
+        </a>
+    </div>
+    <!-- Portfolio Modals -->
+    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Project Title</h2>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/cabin.png" class="img-responsive img-centered" alt="">
+                            <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
+                            <ul class="list-inline item-details">
+                                <li>
+                                    Client:
+                                    <strong>
+                                        <a href="http://startbootstrap.com">Start Bootstrap</a>
+                                    </strong>
+                                </li>
+                                <li>
+                                    Date:
+                                    <strong>
+                                        <a href="http://startbootstrap.com">April 2014</a>
+                                    </strong>
+                                </li>
+                                <li>
+                                    Service:
+                                    <strong>
+                                        <a href="http://startbootstrap.com">Web Development</a>
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+
+            <div ng-if="SelectedImageUrl!='null'" class="selectedImgDiv">
+            <img src="{{SelectedImageUrl}}" class="img-responsive selectedImg" ng-click="HideSelectedImage()"></img>
+            <div class="hideBtn" ng-click="HideSelectedImage()">
+              <i class="fa fa-times"></i>
+            </div>
+          </div>
+            <div class="container" ng-if="SelectedImageUrl=='null'">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>{{SelectedProject.Title}}</h2>
+                            <hr class=" star-primary">
+                            <!--<img src="{{SelectedProject.Src}}" class="img-responsive img-centered" alt="">-->
+                            <div class="well" style="margin-top:10px; background-color:#2C3E50; color:white; font-family: FontAwesome;">
+                                    <div class="well">
+                                      <img  src="{{SelectedProject.MainImage}}" alt="Chania" class="portfolio-link img-responsive center-block zoomCursor">
+
+
+
+                                <paragraph class="portfolioSection">
+                                <h3 class="text-center sectionHeader">Description</h3>
+                                <div class="technology">{{SelectedProject.Description}}</div>
+                                </paragraph>
+
+
+                                <paragraph class="portfolioSection">
+                                <h3 class="text-center sectionHeader">Where it was used</h3>
+                                <div class="technology">{{SelectedProject.UsedPlaces}}</div>
+                                </paragraph>
+
+                              <paragraph class="portfolioSection">
+                                <h3 class="text-center sectionHeader">Technologies</h3>
+                                <div class="technology">{{SelectedProject.Technologies}}</div>
+                              </div>
+
+
+                                <a href="{{SelectedProject.WebLink}}"  ng-if="SelectedProject.WebLink"><button type="button" class="btn btn-default" ><i class="fa fa-external-link"></i>Link</button></a>
+
+                                <a ng-if="SelectedProject.MobileLink" href="{{SelectedProject.MobileLink}}"><button type="button" class="btn btn-default" ><i class="fa fa-mobile"></i>Mobile Url</button></a>
+
+                                <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="js/jquery.easing.min.js"></script>
+    <!-- Contact Form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+    <!-- Theme JavaScript -->
+    <script src="js/freelancer.min.js"></script>
+</body>
+</html>
