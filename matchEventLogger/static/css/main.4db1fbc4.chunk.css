@@ -117,7 +117,7 @@
   height: 40vh;
 }
 body {
-  background: #000 url(./static/media/back.5ea91238.jpg) no-repeat top fixed !important;
+  background: #000 url(../media/back.5ea91238.jpg) no-repeat top fixed !important;
 }
 .main_appContainer__2H4Vq {
   background: #fff;
