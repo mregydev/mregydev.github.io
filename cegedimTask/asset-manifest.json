@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.f7a5d07f.chunk.css",
-    "main.js": "/static/js/main.622ae97f.chunk.js",
-    "main.js.map": "/static/js/main.622ae97f.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.5084e84a.js",
-    "runtime-main.js.map": "/static/js/runtime-main.5084e84a.js.map",
-    "static/js/2.c4fdee17.chunk.js": "/static/js/2.c4fdee17.chunk.js",
-    "static/js/2.c4fdee17.chunk.js.map": "/static/js/2.c4fdee17.chunk.js.map",
-    "static/js/3.1ca8e8ea.chunk.js": "/static/js/3.1ca8e8ea.chunk.js",
-    "static/js/3.1ca8e8ea.chunk.js.map": "/static/js/3.1ca8e8ea.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.089f0da5b8c7308ddc3a98cb5b2d9601.js": "/precache-manifest.089f0da5b8c7308ddc3a98cb5b2d9601.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.f7a5d07f.chunk.css.map": "/static/css/main.f7a5d07f.chunk.css.map",
-    "static/js/2.c4fdee17.chunk.js.LICENSE.txt": "/static/js/2.c4fdee17.chunk.js.LICENSE.txt"
+    "main.css": "/cegedimTask/static/css/main.f7a5d07f.chunk.css",
+    "main.js": "/cegedimTask/static/js/main.622ae97f.chunk.js",
+    "main.js.map": "/cegedimTask/static/js/main.622ae97f.chunk.js.map",
+    "runtime-main.js": "/cegedimTask/static/js/runtime-main.eb693146.js",
+    "runtime-main.js.map": "/cegedimTask/static/js/runtime-main.eb693146.js.map",
+    "static/js/2.c4fdee17.chunk.js": "/cegedimTask/static/js/2.c4fdee17.chunk.js",
+    "static/js/2.c4fdee17.chunk.js.map": "/cegedimTask/static/js/2.c4fdee17.chunk.js.map",
+    "static/js/3.1ca8e8ea.chunk.js": "/cegedimTask/static/js/3.1ca8e8ea.chunk.js",
+    "static/js/3.1ca8e8ea.chunk.js.map": "/cegedimTask/static/js/3.1ca8e8ea.chunk.js.map",
+    "index.html": "/cegedimTask/index.html",
+    "precache-manifest.11ebe2fb82f459e7e088404185b06b30.js": "/cegedimTask/precache-manifest.11ebe2fb82f459e7e088404185b06b30.js",
+    "service-worker.js": "/cegedimTask/service-worker.js",
+    "static/css/main.f7a5d07f.chunk.css.map": "/cegedimTask/static/css/main.f7a5d07f.chunk.css.map",
+    "static/js/2.c4fdee17.chunk.js.LICENSE.txt": "/cegedimTask/static/js/2.c4fdee17.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.5084e84a.js",
+    "static/js/runtime-main.eb693146.js",
     "static/js/2.c4fdee17.chunk.js",
     "static/css/main.f7a5d07f.chunk.css",
     "static/js/main.622ae97f.chunk.js"
