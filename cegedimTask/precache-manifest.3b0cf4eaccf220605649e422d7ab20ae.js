@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1b6fa3562a820145e39ecbdbf09a9872",
+    "revision": "bbd739568924ee620764adf96c79260c",
     "url": "/cegedimTask/index.html"
   },
   {
-    "revision": "5787793243f42ad28d5b",
+    "revision": "385a1c1412e368f09073",
     "url": "/cegedimTask/static/css/main.e6426374.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/cegedimTask/static/js/3.35665091.chunk.js"
   },
   {
-    "revision": "5787793243f42ad28d5b",
-    "url": "/cegedimTask/static/js/main.e21737e8.chunk.js"
+    "revision": "385a1c1412e368f09073",
+    "url": "/cegedimTask/static/js/main.962645c3.chunk.js"
   },
   {
     "revision": "ae71e54cc1bd9b05bb54",
