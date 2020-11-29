@@ -1,24 +1,25 @@
 {
   "files": {
-    "main.css": "/cegedimTask/static/css/main.e6426374.chunk.css",
-    "main.js": "/cegedimTask/static/js/main.962645c3.chunk.js",
-    "main.js.map": "/cegedimTask/static/js/main.962645c3.chunk.js.map",
-    "runtime-main.js": "/cegedimTask/static/js/runtime-main.25f52be5.js",
-    "runtime-main.js.map": "/cegedimTask/static/js/runtime-main.25f52be5.js.map",
-    "static/js/2.1c6bc764.chunk.js": "/cegedimTask/static/js/2.1c6bc764.chunk.js",
-    "static/js/2.1c6bc764.chunk.js.map": "/cegedimTask/static/js/2.1c6bc764.chunk.js.map",
-    "static/js/3.35665091.chunk.js": "/cegedimTask/static/js/3.35665091.chunk.js",
-    "static/js/3.35665091.chunk.js.map": "/cegedimTask/static/js/3.35665091.chunk.js.map",
+    "main.css": "/cegedimTask/static/css/main.39ebd612.chunk.css",
+    "main.js": "/cegedimTask/static/js/main.ff43a01f.chunk.js",
+    "main.js.map": "/cegedimTask/static/js/main.ff43a01f.chunk.js.map",
+    "runtime-main.js": "/cegedimTask/static/js/runtime-main.0dfaf41e.js",
+    "runtime-main.js.map": "/cegedimTask/static/js/runtime-main.0dfaf41e.js.map",
+    "static/js/2.1aec48e5.chunk.js": "/cegedimTask/static/js/2.1aec48e5.chunk.js",
+    "static/js/2.1aec48e5.chunk.js.map": "/cegedimTask/static/js/2.1aec48e5.chunk.js.map",
+    "static/js/3.349aebaa.chunk.js": "/cegedimTask/static/js/3.349aebaa.chunk.js",
+    "static/js/3.349aebaa.chunk.js.map": "/cegedimTask/static/js/3.349aebaa.chunk.js.map",
     "index.html": "/cegedimTask/index.html",
-    "precache-manifest.3b0cf4eaccf220605649e422d7ab20ae.js": "/cegedimTask/precache-manifest.3b0cf4eaccf220605649e422d7ab20ae.js",
+    "precache-manifest.f292b155240ce7a46842888d6338e6ad.js": "/cegedimTask/precache-manifest.f292b155240ce7a46842888d6338e6ad.js",
     "service-worker.js": "/cegedimTask/service-worker.js",
-    "static/css/main.e6426374.chunk.css.map": "/cegedimTask/static/css/main.e6426374.chunk.css.map",
-    "static/js/2.1c6bc764.chunk.js.LICENSE.txt": "/cegedimTask/static/js/2.1c6bc764.chunk.js.LICENSE.txt"
+    "static/css/main.39ebd612.chunk.css.map": "/cegedimTask/static/css/main.39ebd612.chunk.css.map",
+    "static/js/2.1aec48e5.chunk.js.LICENSE.txt": "/cegedimTask/static/js/2.1aec48e5.chunk.js.LICENSE.txt",
+    "static/media/loading.gif": "/cegedimTask/static/media/loading.325cad7f.gif"
   },
   "entrypoints": [
-    "static/js/runtime-main.25f52be5.js",
-    "static/js/2.1c6bc764.chunk.js",
-    "static/css/main.e6426374.chunk.css",
-    "static/js/main.962645c3.chunk.js"
+    "static/js/runtime-main.0dfaf41e.js",
+    "static/js/2.1aec48e5.chunk.js",
+    "static/css/main.39ebd612.chunk.css",
+    "static/js/main.ff43a01f.chunk.js"
   ]
 }

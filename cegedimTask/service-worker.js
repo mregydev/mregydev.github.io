@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/cegedimTask/precache-manifest.3b0cf4eaccf220605649e422d7ab20ae.js"
+  "/cegedimTask/precache-manifest.f292b155240ce7a46842888d6338e6ad.js"
 );
 
 self.addEventListener('message', (event) => {
