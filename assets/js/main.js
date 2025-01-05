@@ -300,7 +300,6 @@
     handleExperience()
     handleCertifications()
     handleCourses()
-    handleCodeSamples()
     navmenuScrollspy()
   })
   document.addEventListener('scroll', navmenuScrollspy)
