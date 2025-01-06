@@ -322,6 +322,21 @@ h6 {
 
 /* Mobile Navigation */
 @media (max-width: 1199px) {
+  .social-links a {
+    width: 100% !important;
+    margin-right: 20px;
+    font-size: 1.2rem;
+    text-decoration: underline;
+    background-color: #333333;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    display: block;
+    margin-top: 20px;
+  }
   .mobile-nav-toggle {
     color: var(--nav-color);
     font-size: 28px;
