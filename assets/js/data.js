@@ -35,32 +35,6 @@ const myData = {
   ],
   experience: [
     {
-      position: 'Senior Front End Engineer (Vue, Nuxt)',
-      company: 'Kaufland e-commerce',
-      from: '05/2024',
-      to: '11/2024',
-      city: 'Berlin , Germany',
-      responsiblities: [
-        `Led the iterative migration of the product details page from Vue 2 to
-        Vue 3 with TypeScript, enabling seamless communication between
-the old and new applications through the DispatchEvent API while
-transitioning from Vuex to pinia composables.`,
-        `Fostered a solution using Module Federation to enable a single
-running instance of the UI library across all micro-frontend
-applications, ensuring consistency.`,
-        `Innovated solutions to optimize SSR performance by reducing the
-critical rendering path, rendering SEO components on the server and
-user-interactive components on the client.`,
-        `Implemented GA4 transformation, A/B tests with Optimizely, and
-monitored application performance with Datadog RUM based on
-defined SLOs to ensure reliability and advanced analytics.`,
-        `Authored technical documentation on performance measurement
-and debugging using Chrome dev tools like layout shifts.`,
-        `Conduced code reviews for juniors and foster collaboration through
-pair programming.`,
-      ],
-    },
-    {
       position: 'Senior Front End Engineer (React,NextJs)',
       company: 'Instafreight',
       from: '04/2023',
